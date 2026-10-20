@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Билеты ПДД 2026 — категории A, B</title>
+  <meta name="description" content="Билеты ПДД онлайн: экзамен как в ГИБДД, серия экзаменов без повторов, марафон, вопросы по темам, работа над ошибками.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='50,6 94,88 6,88' fill='%23fff' stroke='%23d32f2f' stroke-width='10' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#/">
+      <span class="logo-sign"></span>
+      <span>Билеты ПДД <small>A, B · 2026</small></span>
+    </a>
+    <nav class="topnav">
+      <a href="#/tickets">Билеты</a>
+      <a href="#/topics">Темы</a>
+      <a href="#/stats">Статистика</a>
+      <button id="themeBtn" class="icon-btn" title="Сменить тему" aria-label="Сменить тему">◐</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="footer">
+    Вопросы официальных экзаменационных билетов ГИБДД (категории A, B, M). База:
+    <a href="https://github.com/etspring/pdd_russia" target="_blank" rel="noopener">etspring/pdd_russia</a>.
+    Прогресс хранится только в вашем браузере.
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
